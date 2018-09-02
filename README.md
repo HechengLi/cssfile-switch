@@ -7,4 +7,4 @@
 > 5. gice the elements in step 3 attribute switch-target="...", the path to the css file you want to change to<br>
 <br>
 See the demo for more details<br>
-try it [here]{https://hechengli.github.io/cssfile-switch/demo/}
+try it [here](https://hechengli.github.io/cssfile-switch/demo/)
