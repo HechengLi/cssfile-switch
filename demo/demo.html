@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Demo</title>
+	<!-- the link i want to change -->
 	<link id="theme" rel="stylesheet" type="text/css" href="demo_light.css"></link>
+	<!-- the javascript file -->
 	<script src="css-switch.js"></script>
 	<style>
 		html, body { height: 100%; width: 100%; margin: 0; }
@@ -23,12 +25,15 @@
 			width: 150px;
 			text-align: center;
 			transform: translateY(-70%);
+			margin-bottom: 10px;
 		}
 	</style>
 </head>
 <body>
 	<div class="block"></div>
+	<!-- click this one to change to demo_dark.css -->
 	<div class="block btn" switch-type="switcher" switch-id="theme" switch-target="demo_dark.css">Dark Theme</div>
-	<div class="block btn" style="transform: translateY(-50%);" switch-type="switcher" switch-id="theme" switch-target="demo_light.css">Light Theme</div>
+	<!-- click this one to change to demo_light.css -->
+	<div class="block btn" switch-type="switcher" switch-id="theme" switch-target="demo_light.css">Light Theme</div>
 </body>
 </html>
